@@ -8,9 +8,6 @@ h1{
     color: green
 }
 
-body{
-    color: red
-}
 
 h2{
     color:blue
@@ -18,4 +15,14 @@ h2{
 
 h3{
     color:purple
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+.container-centre{
+    max-width: 600px ;
+    margin: auto;
 }
