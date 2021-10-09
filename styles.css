@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root {
+    --primary-color: #2563EB;
+}
 
 body{
-    font-family: 'Scheherazade New', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+hr{
+    margin: 2rem 0rem;
 }
 
 h1{
@@ -25,4 +33,25 @@ h3{
 .container-centre{
     max-width: 600px ;
     margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+
+}
+
+.list-non-bullet{
+    list-style: none;
 }
