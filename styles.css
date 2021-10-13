@@ -90,6 +90,14 @@ h3{
 }
 
 .hero .hero-heading {
+    padding-top: 1rem;
     color: var(--dark-grey);
-    font-size:x-large;
+    font-size: xx-large;
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+
+.section h1{
+    text-align: center;
 }
