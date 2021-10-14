@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 :root {
-    --primary-color: #2563EB;
-    --dark-grey: #374151;
-    --off-white: #D1D5DB;
+    --primary-color:#4D7C0F;
+    --dark-grey: #0F172A;
+    --off-white:#FEF08A;
 }
 
 body{
@@ -16,17 +16,9 @@ hr{
 }
 
 h1{
-    color: green
+    color:#0F172A;
 }
 
-
-h2{
-    color:blue
-}
-
-h3{
-    color:purple
-}
 
 .container{
     padding-left: 1rem;
@@ -45,7 +37,7 @@ h3{
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    color:white;
     
 }
 .link-secondary{
@@ -67,7 +59,7 @@ h3{
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-dev{
@@ -84,6 +76,7 @@ h3{
 
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 .hero .hero-img {
     max-width: 350px;
@@ -119,7 +112,7 @@ h3{
     padding:2rem 1rem;
     text-align: center;
     color:white;
-    border-radius: 1rem;
+    border-top-left-radius: 1rem;
 
 }
 
