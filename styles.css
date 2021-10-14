@@ -3,10 +3,12 @@
 :root {
     --primary-color: #2563EB;
     --dark-grey: #374151;
+    --off-white: #D1D5DB;
 }
 
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -90,6 +92,7 @@ h3{
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark-grey);
     font-size: xx-large;
@@ -98,6 +101,35 @@ h3{
     color: var(--primary-color);
 }
 
+.section{
+    padding:2rem;
+}
+
 .section h1{
     text-align: center;
+    
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color:white;
+    border-radius: 1rem;
+
+}
+
+.footer .link{
+    color:white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
