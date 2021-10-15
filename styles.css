@@ -47,6 +47,10 @@ h1{
 
 }
 
+.link-active{
+    font-weight: bold;
+}
+
 .list-non-bullet{
     list-style: none;
 }
